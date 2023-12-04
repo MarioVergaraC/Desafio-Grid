@@ -64,25 +64,25 @@
     padding: 8px;
     color: darkblue;
     grid-template-areas:
-      "producto producto-1 producto-2"
-      "producto-3 . .";
+      "caja1 caja2 caja3"
+      "caja4 . .";
       background-color: rgb(219, 193, 199);
 }
   
-.producto { 
-    grid-area: producto; 
+.caja1 { 
+    grid-area: caja1; 
 }
   
-  .producto1 { 
-    grid-area: producto-1; 
+  .caja2 { 
+    grid-area: caja2; 
 }
   
-  .producto-2 { 
-    grid-area: producto-2; 
+  .caja3 { 
+    grid-area: caja3; 
 }
   
-  .producto-3 { 
-    grid-area: producto-3; 
+  .caja4 { 
+    grid-area: caja4; 
 }
 
 .footer { 
@@ -90,7 +90,6 @@
     height: 4rem;
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
     font-size: 1.2rem;
     background-color: rgb(212, 139, 153);
 }
@@ -106,25 +105,25 @@
 }
 
 
-.tarjeta{
+.box{
   display: flex;
   flex-direction: column;
   background-color: rgb(233, 224, 225);
 }
 
-.tarjeta img{
+.box img{
   height: 40%;
   width: 100%;
   flex-basis: 70%;
 }
 
-.tarjeta h3, p{
+.box h3, p{
   text-align: center;
   flex-basis: 7%;
   font-family: 'Open Sans', sans-serif;
 }
 
-.tarjeta button{
+.box button{
   flex-basis: 12%;
   font-size: 18px;
 }
@@ -135,7 +134,7 @@ h3{
   padding-top: 8px;
 }
 
-.tarjeta p{
+.box p{
   padding-top: 15px;
   font-size: 20px;
 }
